@@ -1,0 +1,15 @@
+# .idea folder
+/.idea/
+*.iml
+
+.vscode
+*.pyc
+__pycache__
+.DS_Store
+.pypirc
+*/tmp/*
+build/*
+dist/*
+*.egg-info
+logs/%
+.coverage
