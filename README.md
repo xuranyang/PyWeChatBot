@@ -7,9 +7,19 @@
 ![](img/bot_key.png)
 > 其中"key="后面的xxxxxx，就是该微信机器人对应的key
 
+### 如何下载安装&更新
+```
+pip install PyWeChatBot
+# pip install --upgrade PyWeChatBot
+
+# 如果遇到安装报错,一般可以通过更新pip后重新执行解决
+# python -m pip install --upgrade pip
+```
+
 ### 如何使用微信机器人发送消息
 #### 1.创建微信机器人
 ```pyhton
+from wechatbot.wechat_bot import WeChatBot
 # 输入根据上面方式所创建的机器人对应的Key
 wx_key = "xxx"
 # 初始化微信机器人

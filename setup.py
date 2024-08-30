@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = '0.0.1'
+VERSION = '0.0.7'
 
 with open('README.md', 'r', encoding='utf-8') as fp:
     long_description = fp.read()
@@ -17,7 +17,7 @@ setup(
     keywords=['wechat', 'bot', 'wechatbot', 'wechat bot'],
     packages=find_packages(),
     install_requires=[
-        'base64', 'hashlib', 'configparser', 'requests'
+        'requests'
     ],
     python_requires='>=3.7',
     license='MIT',
