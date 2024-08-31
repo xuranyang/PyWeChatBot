@@ -29,8 +29,8 @@ class WeChatBot(object):
         # 这里就是群机器人的Webhook地址
         headers = {"Content-Type": "application/json"}  # http数据头，类型为json
         data = {
-            "msgtype": "test",
-            "test": {
+            "msgtype": "text",
+            "text": {
                 "content": content,  # 让群机器人发送的消息内容
                 "mentioned_list": mentioned_list,  # @全体成员
                 "mentioned_mobile_list": mentioned_mobile_list
